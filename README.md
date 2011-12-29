@@ -4,6 +4,8 @@ Made for peer to peer networks (problably relativly small ones because this isn'
 
 __Usage__
 
+Javascript:
+
 ````javascript
 var P2P = require('p2p');
 
@@ -18,4 +20,16 @@ P2P.main({
 });
 
 P2P.clients['127.0.0.1'].sendMessage(message); // Send a message to the client the port is the server port
+````
+
+Or via the command line:
+
+````
+p2p --help
+Usage:
+  cli.js [OPTIONS] [ARGS]
+
+Options:
+  -h, --host STRING      The host to connect to
+  -p, --port [NUMBER]    The port to listen on (Default is 626)
 ````
