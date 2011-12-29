@@ -6,7 +6,7 @@
 	},
 	"main": "main.js",
 	"bin": {
-		"P2P1": "main.js"
+		"p2p": "main.js"
 	},
 	"dependencies": {
 		"cli": "0.3.8"
