@@ -1,0 +1,14 @@
+{
+	"name": "P2P_Test_1",
+	"version": "v0.1.1-alpha",
+	"scripts": {
+		"start": "node main.js"
+	},
+	"main": "main.js",
+	"bin": {
+		"P2P1": "main.js"
+	},
+	"dependencies": {
+		"cli": "0.3.8"
+	}
+}

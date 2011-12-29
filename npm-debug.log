@@ -1,0 +1,136 @@
+info it worked if it ends with ok
+verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+verbose cli   'install',
+verbose cli   'msgpack' ]
+info using npm@1.1.0-beta-4
+info using node@v0.6.6
+verbose config file C:\Users\Drew\.npmrc
+verbose config file C:\Program Files (x86)\nodejs\etc\npmrc
+verbose config file C:\Program Files (x86)\nodejs\node_modules\npm\npmrc
+verbose mkdir done: C:\Users\Drew\Development\Projects\P2P 755
+verbose caching C:\Users\Drew\Development\Projects\P2P\package.json
+verbose loadDefaults P2P_Test_1@v0.1.1-alpha
+WARN cli@0.3.8 package.json: bugs['web'] should probably be bugs['url']
+verbose caching C:\Users\Drew\Development\Projects\P2P\node_modules\cli\package.json
+verbose loadDefaults cli@0.3.8
+verbose from cache C:\Users\Drew\Development\Projects\P2P\package.json
+verbose into C:\Users\Drew\Development\Projects\P2P [ 'msgpack' ]
+verbose cache add msgpack@0.1.3
+verbose cache add [ 'msgpack@0.1.3', null ]
+silly cache add: name, spec, args [ undefined, 'msgpack@0.1.3', [ 'msgpack@0.1.3', null ] ]
+verbose parsed url { pathname: 'msgpack@0.1.3',
+verbose parsed url   path: 'msgpack@0.1.3',
+verbose parsed url   href: 'msgpack@0.1.3' }
+silly cache add: name, spec, args [ 'msgpack', '0.1.3', [ 'msgpack', '0.1.3' ] ]
+verbose parsed url { pathname: '0.1.3', path: '0.1.3', href: '0.1.3' }
+verbose addNamed [ 'msgpack', '0.1.3' ]
+verbose addNamed [ '0.1.3', '0.1.3' ]
+verbose raw, before any munging msgpack/0.1.3
+verbose url resolving [ 'https://registry.npmjs.org/', './msgpack/0.1.3' ]
+verbose url resolved https://registry.npmjs.org/msgpack/0.1.3
+verbose etag "76B7IDFL48PMC8PDUZGSGZ1S9"
+http GET https://registry.npmjs.org/msgpack/0.1.3
+http 304 https://registry.npmjs.org/msgpack/0.1.3
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.1.0 (Erlang OTP/R14B04)',
+silly get cb     etag: '"76B7IDFL48PMC8PDUZGSGZ1S9"',
+silly get cb     date: 'Wed, 28 Dec 2011 20:36:18 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag msgpack/0.1.3 from cache
+verbose mkdir done: C:\Users\Drew\AppData\Roaming\npm-cache\msgpack\0.1.3 755
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.14-win32-ia32-6.1.7601',
+verbose bin dist   { tarball: 'http://registry.npmjs.org/msgpack/-/msgpack-0.1.3.tgz' } ]
+verbose caching C:\Users\Drew\AppData\Roaming\npm-cache\msgpack\0.1.3\package\package.json
+verbose loadDefaults msgpack@0.1.3
+silly resolved [ { name: 'msgpack',
+silly resolved     description: 'A space-efficient object serialization library for node.js',
+silly resolved     version: '0.1.3',
+silly resolved     homepage: 'https://github.com/pgriess/node-msgpack',
+silly resolved     author: { name: 'Peter Griess', email: 'pg@std.in' },
+silly resolved     contributors: 
+silly resolved      [ { name: 'Tom Taylor',
+silly resolved          email: 'tom@tomtaylor.co.uk',
+silly resolved          url: 'http://tomtaylor.co.uk' } ],
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/pgriess/node-msgpack.git' },
+silly resolved     main: './lib/msgpack',
+silly resolved     directories: { lib: 'lib' },
+silly resolved     engines: { node: '>=0.1.97' },
+silly resolved     scripts: { preinstall: 'make', preuninstall: 'make clean' },
+silly resolved     bin: 
+silly resolved      { json2msgpack: './bin/json2msgpack',
+silly resolved        msgpack2json: './bin/msgpack2json' },
+silly resolved     _id: 'msgpack@0.1.3',
+silly resolved     dependencies: {},
+silly resolved     devDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.0-beta-4',
+silly resolved     _nodeVersion: 'v0.6.6',
+silly resolved     _defaultsLoaded: true } ]
+info into C:\Users\Drew\Development\Projects\P2P msgpack@0.1.3
+info installOne msgpack@0.1.3
+info unbuild C:\Users\Drew\Development\Projects\P2P\node_modules\msgpack
+verbose from cache C:\Users\Drew\AppData\Roaming\npm-cache\msgpack\0.1.3\package\package.json
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\Drew\Development\Projects\P2P\node_modules\___msgpack.npm'
+verbose mkdir done: C:\Users\Drew\Development\Projects\P2P\node_modules\___msgpack.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\Drew\Development\Projects\P2P\node_modules\msgpack
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+verbose gunzed C:\Users\Drew\Development\Projects\P2P\node_modules\___msgpack.npm\package
+verbose rm'ed C:\Users\Drew\Development\Projects\P2P\node_modules\msgpack
+verbose renamed [ 'C:\\Users\\Drew\\Development\\Projects\\P2P\\node_modules\\___msgpack.npm\\package',
+verbose renamed   'C:\\Users\\Drew\\Development\\Projects\\P2P\\node_modules\\msgpack' ]
+verbose caching C:\Users\Drew\Development\Projects\P2P\node_modules\msgpack\package.json
+verbose loadDefaults msgpack@0.1.3
+info preinstall msgpack@0.1.3
+verbose unsafe-perm in lifecycle true
+silly exec cmd "/c" "make"
+silly spawning [ 'cmd',
+silly spawning   [ '/c', 'make' ],
+silly spawning   'C:\\Users\\Drew\\Development\\Projects\\P2P\\node_modules\\msgpack' ]
+info msgpack@0.1.3 Failed to exec preinstall script
+ERR! error installing msgpack@0.1.3
+info unbuild C:\Users\Drew\Development\Projects\P2P\node_modules\msgpack
+verbose from cache C:\Users\Drew\Development\Projects\P2P\node_modules\msgpack\package.json
+info preuninstall msgpack@0.1.3
+verbose unsafe-perm in lifecycle true
+silly exec cmd "/c" "make clean"
+silly spawning [ 'cmd',
+silly spawning   [ '/c', 'make clean' ],
+silly spawning   'C:\\Users\\Drew\\Development\\Projects\\P2P\\node_modules\\msgpack' ]
+info msgpack@0.1.3 Failed to exec preuninstall script
+WARN continuing anyway msgpack@0.1.3 preuninstall: `make clean`
+WARN continuing anyway `cmd "/c" "make clean"` failed with 2
+info uninstall msgpack@0.1.3
+verbose unbuild msgpack@0.1.3 [ true,
+verbose unbuild msgpack@0.1.3   'C:\\Users\\Drew\\Development\\Projects\\P2P\\node_modules',
+verbose unbuild msgpack@0.1.3   'C:\\Users\\Drew\\Development\\Projects\\P2P\\node_modules' ]
+verbose binRoot [ 'C:\\Users\\Drew\\Development\\Projects\\P2P\\node_modules\\.bin',
+verbose binRoot   { json2msgpack: './bin/json2msgpack',
+verbose binRoot     msgpack2json: './bin/msgpack2json' } ]
+info postuninstall msgpack@0.1.3
+verbose installOne cb msgpack@0.1.3
+ERR! msgpack@0.1.3 preinstall: `make`
+ERR! `cmd "/c" "make"` failed with 2
+ERR! 
+ERR! Failed at the msgpack@0.1.3 preinstall script.
+ERR! This is most likely a problem with the msgpack package,
+ERR! not with npm itself.
+ERR! Tell the author that this fails on your system:
+ERR!     make
+ERR! You can get their info via:
+ERR!     npm owner ls msgpack
+ERR! There is likely additional logging output above.
+ERR! 
+ERR! System Windows_NT 6.1.7601
+ERR! command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "msgpack"
+ERR! cwd C:\Users\Drew\Development\Projects\P2P
+ERR! node -v v0.6.6
+ERR! npm -v 1.1.0-beta-4
+ERR! code ELIFECYCLE
+ERR! message msgpack@0.1.3 preinstall: `make`
+ERR! message `cmd "/c" "make"` failed with 2
+verbose exit [ 1, true ]
