@@ -3,7 +3,6 @@ var cli = require('cli'),
 
 cli.parse({
 	host: ['h', 'The host to connect to', 'string'],
-	name: ['n', 'The name of this client', 'string'],
 	port: ['p', 'The port to listen on', 'number', 626]
 });
 

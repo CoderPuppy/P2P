@@ -144,12 +144,6 @@ function connection(s) {
 	Client.initFromServer(s)
 }
 
-exports.main = function(Lopts, args){
-	opts = Lopts
-	server(Lopts, args);
-	connect(Lopts, args);
-}
-
 var InterfaceClient = (function() {
 	var InterfaceClient = function Client(client) {
 		this.client = client;
@@ -162,9 +156,13 @@ var InterfaceClient = (function() {
 	return InterfaceClient;
 })();
 
-exports.interface = (function() {
+module.exports = (function() {
 	var interface = {
-		
+		main: function main(Lopts, args){
+			opts = Lopts
+			server(Lopts, args);
+			connect(Lopts, args);
+		}
 	};
 	
 	Object.defineProperties(interface, {
